@@ -12,3 +12,9 @@
 li {
     margin: 0 10px;
 }
+
+@media(max-size:768px){
+    .navbar{
+        width:100vw !important;
+    }
+}

@@ -5,20 +5,30 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { LoaderComponent } from './loader/loader.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { FooterComponent } from './components/footer/footer.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { CarouselComponent } from './components/projects/carousel/carousel.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
     NavbarComponent,
-    LoaderComponent
+    FooterComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    CarouselComponent,
+
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

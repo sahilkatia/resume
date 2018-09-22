@@ -1,0 +1,16 @@
+#home{
+    background: url(../../../assets/images/center.jpg) no-repeat center center fixed;
+    display:table;
+    height:80vh;
+    position:relative;
+    width:100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    padding: 250px;
+    font-weight: 700;
+    color: floralwhite;
+}

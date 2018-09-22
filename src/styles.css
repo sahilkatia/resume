@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+
+.progress-bar{
+    background-color: violet !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media(max-width:1024px){
+    body{
+        overflow-y: scroll !important;
+    }
+}
+
+
+
+@media(max-width:1024px){
+    .main{
+        width: 100vw !important;
+        height: 100vh !important;
+
+    }
+}
