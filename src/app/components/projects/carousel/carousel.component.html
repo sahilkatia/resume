@@ -1,23 +1,30 @@
 <ngb-carousel *ngIf="images">
     <ng-template ngbSlide>
-      <img [src]="images[0]" alt="Random first slide">
+      <img src="assets/images/arts.PNG" alt="Random first slide" class="responsive imgs">
       <div class="carousel-caption">
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3>The ARTery</h3>
+        <p><a href="http://www.artsinmotionomaha.org/">Click Me</a></p>
       </div>
     </ng-template>
     <ng-template ngbSlide>
-      <img [src]="images[1]" alt="Random second slide">
+      <img src="assets/images/hapi.PNG" alt="Random second slide" class="responsive imgs">
       <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3>Yoga Club</h3>
+        <p><a href="https://hapiyoga.org/">Click Me</a></p>
       </div>
     </ng-template>
     <ng-template ngbSlide>
-      <img [src]="images[2]" alt="Random third slide">
+      <img src="assets/images/drops.PNG" alt="Drops" class="responsive imgs">
       <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h3>Drops and Crops</h3>
+        <p><a href="https://s3.us-east-2.amazonaws.com/www.sahilkatia.com/water/index.html">Click Me</a></p>
       </div>
     </ng-template>
+    <ng-template ngbSlide>
+        <img src="assets/images/tek.PNG" alt="Drops" class="responsive imgs">
+        <div class="carousel-caption">
+          <h3>TEK Classes</h3>
+          <p><a href="https://tekclasses.com//">Click Me</a></p>
+        </div>
+      </ng-template>
   </ngb-carousel>

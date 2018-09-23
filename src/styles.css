@@ -3,6 +3,7 @@
 html, body{
     height:100%;
     width:100%;
+    overflow-x: hidden;
 }
 
 
@@ -18,16 +19,16 @@ html, body{
 
 @media(max-width:1024px){
     body{
-        overflow-y: scroll !important;
+        overflow-y: scroll;
     }
 }
 
 
-
-@media(max-width:1024px){
-    .main{
-        width: 100vw !important;
-        height: 100vh !important;
-
+@media screen and (min-width:0px) and (max-width:1180px){
+    body{
+        overflow-x:hidden;
+        overflow-y: scroll;
+        text-align:center;
     }
 }
+

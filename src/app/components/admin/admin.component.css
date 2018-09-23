@@ -1,10 +1,11 @@
 #home{
     background: url(../../../assets/images/center.jpg) no-repeat center center fixed;
     display:table;
-    height:80vh;
+    height:60vh;
     position:relative;
     width:100%;
     background-size: cover;
+    padding-top: 50px;
 }
 
 .landing-text{
@@ -13,4 +14,14 @@
     padding: 250px;
     font-weight: 700;
     color: floralwhite;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-text{
+        display: table-cell;
+        text-align: center;
+        padding: 250px;
+        font-weight: 700;
+        color: floralwhite;
+    }
 }

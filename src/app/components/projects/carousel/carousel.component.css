@@ -1,0 +1,11 @@
+
+.imgs{
+    width: 60vw;
+    height: 64vh;
+}
+
+.carousel-caption{
+    color:blue !important;
+    font-size:18px;
+    font-weight: 500;
+}
